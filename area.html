@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <form class="Area" name="circle">
+        <h1>Area of circle</h1>
+        <input type="text" placeholder="Enter Radious" name="radious">
+        <input type="text" placeholder="Result" name="circlereasult">
+        <input type="button" value="Result" onclick="areaofcircle()">
+    </form>
+    <form class="Area1" name="square">
+        <h1>Area of Square</h1>
+        <input type="text" placeholder="Enter side length" name="side">
+        <input type="text" placeholder="Result" name="sqres">
+        <input type="button" onclick="areaofsquare()" value="Result">
+    </form>
+    <form class="Area2" name="rectangle">
+        <h1>Area of Rectangle</h1>
+        <input type="text" placeholder="Enter length" name="length">
+        <input type="text" placeholder="Enter width" name="bradth">
+        <input type="text" placeholder="Result" name="resrec">
+        <input type="button" value="Result" onclick="areaofrectangle()">
+    </form>
+    <script>
+        function areaofcircle()
+        {
+            var Radious = parseInt(document.circle.radious.value);
+            const PI = Math.PI;
+            var z = document.circle.circlereasult;
+            z.value = PI*Radious*Radious;
+        };
+        function areaofsquare()
+        {
+            var side = parseInt(document.square.side.value);
+            var a = document.square.sqres;
+            a.value = side*side;
+        };
+        function areaofrectangle()
+        {
+            var length = parseInt(document.rectangle.length.value);
+            var bradth = parseInt(document.rectangle.bradth.value);
+            var a = document.rectangle.resrec;
+            a.value = length*bradth;
+        };
+    </script>
+</body>
+</html>

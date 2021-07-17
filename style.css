@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #ffebcd;
+}
+.menu a{
+    color: black;
+    margin: 30px;
+    text-decoration: none;
+}
+.menu button{
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.title h1{
+    font-size: 100px;
+}
+.title{
+    font-family: 'Fuggles', cursive;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Area{ 
+    border-radius: 30px;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000;
+    text-align: center;
+
+}
+.Area h1{
+    background: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.Area input[type="text"],.Area input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+
+}
+.Area input[type="text"]:focus,.Area input[type="password"]:focus{
+    width: 280px;
+    border-color: green;
+
+}
+.Area input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    border: 2px solid rgb(7, 90, 28);
+    padding: 12px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+.Area input[type="button"]:hover{
+    background: rgb(5, 153, 12);
+}
+.Area1{ 
+    border-radius: 30px;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000;
+    text-align: center;
+
+}
+.Area1 h1{
+    background: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.Area1 input[type="text"],.Area1 input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+
+}
+.Area1 input[type="text"]:focus,.Area1 input[type="password"]:focus{
+    width: 280px;
+    border-color: green;
+
+}
+.Area1 input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    border: 2px solid rgb(7, 90, 28);
+    padding: 12px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+.Area1 input[type="button"]:hover{
+    background: rgb(5, 153, 12);
+}
+.Area2{ 
+    border-radius: 30px;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000;
+    text-align: center;
+
+}
+.Area2 h1{
+    background: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.Area2 input[type="text"],.Area2 input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+
+}
+.Area2 input[type="text"]:focus,.Area2 input[type="password"]:focus{
+    width: 280px;
+    border-color: green;
+
+}
+.Area2 input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    border: 2px solid rgb(7, 90, 28);
+    padding: 12px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+.Area2 input[type="button"]:hover{
+    background: rgb(5, 153, 12);
+}
